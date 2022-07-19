@@ -18,28 +18,28 @@
                <children>
                   <TextField fx:id="tfId" promptText="Код" stylesheets="@../values/style.css">
                      <styleClass>
-                        <String fx:value="search-box" />
                         <String fx:value="shadow" />
+                        <String fx:value="round" />
                      </styleClass></TextField>
                   <TextField fx:id="tfTitle" promptText="Название" stylesheets="@../values/style.css">
                      <styleClass>
-                        <String fx:value="search-box" />
                         <String fx:value="shadow" />
+                        <String fx:value="round" />
                      </styleClass></TextField>
                   <TextField fx:id="tfAuthor" promptText="Автор" stylesheets="@../values/style.css">
                      <styleClass>
-                        <String fx:value="search-box" />
                         <String fx:value="shadow" />
+                        <String fx:value="round" />
                      </styleClass></TextField>
                   <TextField fx:id="tfYear" promptText="Год выпуска">
                      <styleClass>
-                        <String fx:value="search-box" />
                         <String fx:value="shadow" />
+                        <String fx:value="round" />
                      </styleClass></TextField>
                   <TextField fx:id="tfPages" promptText="Кол-во страниц">
                      <styleClass>
-                        <String fx:value="search-box" />
                         <String fx:value="shadow" />
+                        <String fx:value="round" />
                      </styleClass></TextField>
                </children>
             </VBox>
@@ -56,18 +56,18 @@
                <children>
                   <Button fx:id="btnInsert" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="80.0" text="Добавить">
                      <styleClass>
-                        <String fx:value="search-box" />
                         <String fx:value="shadow" />
+                        <String fx:value="round" />
                      </styleClass></Button>
                   <Button fx:id="btnUpdate" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="80.0" text="Обновить">
                      <styleClass>
-                        <String fx:value="search-box" />
                         <String fx:value="shadow" />
+                        <String fx:value="round" />
                      </styleClass></Button>
                   <Button fx:id="btnDelete" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="80.0" text="Удалить">
                      <styleClass>
-                        <String fx:value="search-box" />
                         <String fx:value="shadow" />
+                        <String fx:value="round" />
                      </styleClass></Button>
                </children>
             </HBox>

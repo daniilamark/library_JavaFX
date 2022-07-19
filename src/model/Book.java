@@ -1,12 +1,14 @@
 package model;
 
+// класс описывающий книгу, модель данных
 public class Book {
-    private int id;
-    private String title;
-    private String author;
-    private int year;
-    private int pages;
+    private int id; // код
+    private String title; // название
+    private String author; // автор
+    private int year; // год выпуска книги
+    private int pages; // кол-во страниц
 
+    // конструктор класса
     public Book(int id, String title, String author, int year, int pages) {
         this.id = id;
         this.title = title;
@@ -15,6 +17,7 @@ public class Book {
         this.pages = pages;
     }
 
+    // методы получения данных мз модели
     public int getId() {
         return id;
     }
